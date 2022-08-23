@@ -51,7 +51,7 @@ public class Person {
         Scanner sc = new Scanner(System.in);
         System.out.println("Type name of person:");
         setName(sc.nextLine());
-        System.out.println("Type a date of birth in format 'dd-MM-yyyy':");
+        System.out.println("Type a date of birth in format 'dd-MM-yyyy': ");
         setBirthDate(sc.nextLine());
 
     }
