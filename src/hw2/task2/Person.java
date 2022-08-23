@@ -57,8 +57,8 @@ public class Person {
     }
 
     public void output(){
-        System.out.println("Name is " + this.name);
-        System.out.println("Age is " + age(this.birthDate));
+        System.out.println("Name is " + getName());
+        System.out.println("Age is " + age(getBirthDate()));
     }
 
 
