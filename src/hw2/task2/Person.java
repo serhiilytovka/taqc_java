@@ -51,14 +51,14 @@ public class Person {
         Scanner sc = new Scanner(System.in);
         System.out.println("Type name of person:");
         setName(sc.nextLine());
-        System.out.println("Type a date of birth in format 'dd-MM-yyyy':");
+        System.out.println("Type a date of birth in format 'dd-MM-yyyy': ");
         setBirthDate(sc.nextLine());
 
     }
 
     public void output(){
-        System.out.println("Name is " + this.name);
-        System.out.println("Age is " + age(this.birthDate));
+        System.out.println("Name is " + getName());
+        System.out.println("Age is " + age(getBirthDate()));
     }
 
 
